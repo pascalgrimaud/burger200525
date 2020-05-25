@@ -1,0 +1,51 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.github.pascalgrimaud.burger"
+    },
+    "jhipsterVersion": "6.9.0",
+    "applicationType": "monolith",
+    "baseName": "burger",
+    "packageName": "io.github.pascalgrimaud.burger",
+    "packageFolder": "io/github/pascalgrimaud/burger",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2Q3ZTRiOTVkN2M4NzI4MmU0M2U2M2FlOWZhMWUwNGE4MDU3YTcwZTA3MDQ0MDRmMmUyN2ZmOTVmNDg3ZGQ3YjA3YTNjZDc4NjYyMThhMzE1OWJlYzgxODQxMmU5MGU4MWJkMmI5Y2MwYzI3Yzg4NzFkZDZiZTk5MjY1MWNiMjI=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1590428274730,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.8.1"
+      }
+    ],
+    "enableTranslation": false,
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.8.1"
+      }
+    ],
+    "prettierJava": true
+  }
+}
